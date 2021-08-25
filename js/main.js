@@ -26,7 +26,7 @@
         <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
         <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
       </ul>
-      <a class="btn" href="#!">Register</a>
+      <a class="btn" href="index.html#services">Register</a>
     </nav>`
   },{
     id:'footer',
