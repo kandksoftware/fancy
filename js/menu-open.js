@@ -3,7 +3,7 @@
   app.listenMenu = () => {
     //for the listeners
     const ham = document.querySelector('.hamburger')
-    const links = document.querySelectorAll('.menu a')
+    const links = document.querySelectorAll('.menu a, .nav__bottom .btn')
     const overlay = document.querySelector('.menu-overlay')
     const desc = document.querySelector('.homepage__desc')
     const navBottom = document.querySelector('.nav__bottom')

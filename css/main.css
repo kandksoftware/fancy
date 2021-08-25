@@ -388,11 +388,11 @@ noscript {
   font-weight: 600;
   color: #000;
   color: #fff;
-  font-size: 1.2rem;
-}
-
-.menu > a:last-child {
-  margin-top: 0.5rem !important;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  /*&:last-child{
+      margin-top: 0.5rem !important;
+    }*/
 }
 
 .menu.active {
@@ -867,18 +867,6 @@ noscript {
   }
 }
 
-/*.register-btn{
-  border:$border;
-  color: $primary-color !important;
-  padding: 0.1rem 1rem;
-  display: inline-block;
-
-  &:hover{
-    transition: 0.3s;
-    border:0.1875rem solid $brand-color;
-    color: $brand-color !important;
-  }
-}*/
 .svg-background {
   background-position: center;
   background-repeat: no-repeat;
