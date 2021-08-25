@@ -8,11 +8,7 @@
         </div>
       </div>
       <div class="nav__links">
-        <a href="#main">Main</a>
-        <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
-        <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
-        <a href="#contact">Contact</a>
-        <a class="btn btn-red" href="#">Buy</a>
+        containes links
       </div>
       <div class="hamburger">
         <div></div>
@@ -22,12 +18,16 @@
     </nav>
     <div class="menu-overlay"></div>
     <div class="menu">
-      <a href="#main">Main</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
-      <a href="#contact">Contact</a>
-      <a class="btn btn-red" href="#">Buy</a>
-    </div>`
+      containes links
+    </div>
+    <nav class="nav__bottom hide">
+      <ul class="social">
+        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      </ul>
+      <a class="btn" href="#!">Register</a>
+    </nav>`
   },{
     id:'footer',
     content:`<div class="footer__links">
@@ -38,7 +38,7 @@
       <a href="https://kandksoftware.github.io/macro-terminal-pro/faq.html">FAQ</a>
     </div>
     <div class="footer__copy">
-      <a href="#!">Copyright © 2021 Mobile CAM CNC. All rights reserved.</a> 
+      <a href="#!">Copyright © 2021 Batumi. All rights reserved.</a> 
       <a href="privacy-policy">Privacy Policy</a>
     </div>`
   }]
@@ -59,30 +59,31 @@
     link:'index.html#main',
     desc:'Main'
   },{
-    type:['nav','menu'],
-    link:'product.html',
-    desc:'Product'
-  },{
-    type:['footer'],
-    link:'https://kandksoftware.github.io/entry/',
-    desc:'Products'
+    type:['nav','menu','footer'],
+    link:'index.html#services',
+    desc:'Services'
   },{
     type:['nav','menu','footer'],
-    link:'knowledge.html',
-    desc:'Knowledge'
+    link:'index.html#about',
+    desc:'About us'
   },{
     type:['nav','menu','footer'],
     link:'index.html#contact',
     desc:'Contact'
   },{
     type:['footer'],
-    link:'faq.html',
+    link:'#!',
     desc:'FAQ'
   },{
-    type:['nav','menu'],
+    type:['footer'],
     link:'#!',
-    dec:['btn btn-red btn-purchase'],
-    desc:'Purchase'
+    desc:'Covid'
+  },{
+    type:['nav'/*,'menu'*/],
+    link:'index.html#services',
+    //dec:['btn btn-red btn-purchase'],
+    dec:['btn'],
+    desc:'Register'
   }]
 
   APP.injectTemplates(array)
@@ -109,35 +110,4 @@
   }
 
 })();
-
-/*{
-  id:'header',
-  content:`<nav class="nav">
-    <div class="nav__container">
-      <img class="nav__icon" src="resources/macro-terminal-icon.png" alt="Macro Terminal CNC">
-      <div class="nav__name">
-      </div>
-    </div>
-    <div class="nav__links">
-      <a href="#main">Main</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
-      <a href="#contact">Contact</a>
-      <a class="btn btn-red" href="#">Buy</a>
-    </div>
-    <div class="hamburger">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </nav>
-  <div class="menu-overlay"></div>
-  <div class="menu">
-    <a href="#main">Main</a>
-    <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
-    <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
-    <a href="#contact">Contact</a>
-    <a class="btn btn-red" href="#">Buy</a>
-  </div>`
-}*/
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="" type="image/png" />
     <link rel="stylesheet" href="css/main.css">
-    <title>Travel</title>
+    <title>Batumi</title>
     <meta name="google-site-verification" content="" />
     <meta name="description" content="" />
     <meta name="keywords" content=""/>
@@ -14,37 +14,125 @@
   </head>
   <body>
     <noscript>Your browser does not support JavaScript!</noscript>
-     <!-- Video Source -->
-    <section class="showcase">
+    <div id="app" class="hide">
       <header>
-        <h2 class="logo">Travel</h2>
-        <div class="toggle"></div>
+        {{ header }}
       </header>
-      <video src="resources/videos/waves.mp4" muted loop autoplay></video>
-      <div class="overlay"></div>
-      <div class="text">
-        <h2>Never Stop To </h2> 
-        <h3>Exploring The World</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.</p>
-        <a href="#">Explore</a>
-      </div>
-      <ul class="social">
-        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-      </ul>
-    </section>
-    <div class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Destination</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <main>
+        <section class="main flex-c homepage" id="main">
+          <video class="homepage__video" src="resources/videos/waves.mp4" autoplay muted loop></video>
+          <div class="homepage__filter"></div>
+          <div class="homepage__desc">
+            <h1>NEVER STOP TO</h1>
+            <h2>EXPLORING THE WORLD</h2>
+            <p>The best and cheapest place on earth to live.</p>
+            <a class="btn" href="index.html#services">Register</a>
+          </div>
+        </section>
+        <section class="section reversed r-o p-1" id="about">
+          <div class="flex-c">
+            <img class="section__img" src="resources/images/undraw_team_spirit_hrr4.svg" alt="Team">
+          </div>
+          <div class="section__content t-c">
+            <h1 class="section__title">About us</h1>
+            <h3 class="section__desc">We are a leading company in Georgia that provides the best and cheapest solutions for people who wanted to study in this country. </h3>
+            <a class="customer__link btn btn--red" href="">Read more</a>
+          </div>
+        </section>
+        <section class="customers-header p-1 flex-c svg-background" style="background-image: url('resources/images/wave.svg');" id="services">
+          <h1 class="customers-header__desc">We provide</h1>
+        </section>
+        <section class="cards p-1 section__bg-standard">
+          <div class="card card--shadow">
+            <h1 class="card__name">Visa</h1>
+            
+            <h3 class="card__content">
+              
+            </h3>
+            <a class="btn btn--red" href="">Register</a>
+          </div>
+          <div class="card">
+            <h1 class="card__name">Visa + study</h1>
+            
+            <h3 class="card__content">
+              
+            </h3>
+            <a class="btn btn--red" href="">Register</a>
+          </div>
+          <div class="card card--shadow">
+            <h1 class="card__name">Visa + work</h1>
+            
+            <h3 class="card__content">
+              
+            </h3>
+            <a class="btn btn--red" href="">Register</a>
+          </div>
+        </section>
+        <section class="customers-header p-1 flex-c svg-background" style="background-image: url('resources/images/wave.svg');">
+          <h1 class="customers-header__desc">Customer's opinion</h1>
+        </section>
+        <section class="customers p-1 section__bg-standard">
+          <div class="customer">
+            <h1 class="customer__name">Martin Darren</h1>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h3 class="customer__review">
+            </h3>
+            <a class="customer__link btn btn--red" href="">Read</a>
+          </div>
+          <div class="customer">
+            <h1 class="customer__name">Paul Gates</h1>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h3 class="customer__review">
+              
+            </h3>
+            <a class="customer__link btn btn--red" href="">Read</a>
+          </div>
+          <div class="customer">
+            <h1 class="customer__name">Anna Smith</h1>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <h3 class="customer__review">
+              
+            </h3>
+            <a class="customer__link btn btn--red" href="">Read</a>
+          </div>
+        </section>
+        <section class="contact p-1 r-o" id="contact">
+          <div class="flex-c">
+            <img class="section__img" src="resources/images/undraw_contact_us_15o2.svg" alt="Contact">
+          </div>
+          <div class="t-c">
+            <h1 class="contact__title">Contact us</h1>
+            <h2 class="contact__mail"><i class="fa fa-envelope" aria-hidden="true"></i> google@gmail.com</h2>
+            <h3 class="contact__mess">We will answer you within 48hours*</h3>
+            <p class="contact__warn">*Excluding weekends and holidays</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer svg-background" style="background-image: url('resources/images/wave.svg');height: auto;">
+        {{ footer }}
+      </footer>
+      <script src="js/global.js"></script>
+      <script src="js/menu.js"></script>
+      <script src="js/menu-open.js"></script>
+      <script src="js/template-injector.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+        (function(){
+          document.querySelector('.footer__copy a').innerHTML =  `Copyright © ${ new Date().getFullYear() } Mobile CAM CNC. All rights reserved.`
+        })();
+      </script>
     </div>
   </body>
 </html>
