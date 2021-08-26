@@ -3,44 +3,66 @@
   const array = [{
     id:'header',
     content:`<nav class="nav">
-      <div class="nav__container">
-        <div class="nav__name">
-        </div>
-      </div>
-      <div class="nav__links">
-        containes links
-      </div>
-      <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </nav>
-    <div class="menu-overlay"></div>
-    <div class="menu">
-      containes links
-    </div>
-    <nav class="nav__bottom hide">
-      <ul class="social">
-        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
-        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
-        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
-      </ul>
-      <a class="btn" href="index.html#services">Register</a>
-    </nav>`
+              <div class="nav__container">
+                <div class="nav__name">
+                </div>
+              </div>
+              <div class="nav__links">
+                containes links
+              </div>
+              <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </nav>
+            <div class="menu-overlay"></div>
+            <div class="menu">
+              containes links
+            </div>
+            <nav class="nav__bottom hide">
+              <ul class="social">
+                <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+              </ul>
+              <a class="btn" href="index.html#services">Register</a>
+            </nav>`
   },{
     id:'footer',
     content:`<div class="footer__links">
-      <a href="#main">Main</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
-      <a href="#">Contact</a>
-      <a href="https://kandksoftware.github.io/macro-terminal-pro/faq.html">FAQ</a>
-    </div>
-    <div class="footer__copy">
-      <a href="#!">Copyright © 2021 Batumi. All rights reserved.</a> 
-      <a href="privacy-policy">Privacy Policy</a>
-    </div>`
+              <a href="#main">Main</a>
+              <a href="https://kandksoftware.github.io/macro-terminal-pro/product.html">Product</a>
+              <a href="https://kandksoftware.github.io/macro-terminal-pro/knowledge.html">Knowledge</a>
+              <a href="#">Contact</a>
+              <a href="https://kandksoftware.github.io/macro-terminal-pro/faq.html">FAQ</a>
+            </div>
+            <div class="footer__copy">
+              <a href="#!">Copyright © 2021 Batumi. All rights reserved.</a> 
+              <a href="privacy-policy">Privacy Policy</a>
+            </div>`
+  },{
+    id:'time-line',
+    content:`<div class="timeline">
+              <div class="container container--left">
+                <div class="content">
+                  <h2>2021</h2>
+                  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+              </div>
+              <div class="container container--right">
+                <div class="content">
+                  <h2>2020</h2>
+                  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+              </div>
+              <div class="container container--left">
+                <div class="content">
+                  <h2>2019</h2>
+                  <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                </div>
+              </div>
+            </div>`
   }]
 
   const components = [{
